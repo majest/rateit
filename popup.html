@@ -1,0 +1,41 @@
+<html>
+<head>
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+<style type="text/css">
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: center;
+
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover,
+.rating > span:hover ~ span {
+  color: transparent;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   left: 0; 
+   color: gold;
+}
+
+body {
+    width:200px; 
+    height:10px;
+}
+</style>
+
+</head>
+<body>
+<div class="rating">
+<span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span> : ngiseD
+</div>
+</body>
+</html>
+

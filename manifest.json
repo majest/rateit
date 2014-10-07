@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+
+  "name": "rate it",
+  "description": "This extension allows to rate a site from the design and build perspective.",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "rateit.png",
+    "default_popup": "popup.html"
+  }
+}
