@@ -7,5 +7,10 @@
   "browser_action": {
     "default_icon": "rateit.png",
     "default_popup": "popup.html"
-  }
+  },
+    "background": {
+        "persistent": true,
+        "scripts": ["script.js"]
+    },
+  "permissions": ["contextMenus","tabs"]
 }
