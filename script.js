@@ -52,7 +52,7 @@ function sendData() {
         }
 
         cookieParts = cookie.split("-");
-        $.post('http://modeo.co.uk:9010',{url: url, uid: cookie[1], data: {rating:state}})
+        $.post('http://rateit.modeo.co.uk',{url: url, uid: cookie[1], data: {rating:state}})
     });
 }
 
