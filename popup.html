@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
 </script>
 <script type="text/javascript" src="./jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="./c.js"></script>
 <script type="text/javascript" src="./script.js"></script>
 <style type="text/css">
 .rating {
@@ -16,12 +17,12 @@
   position: relative;
   width: 1.1em;
 }
-.rating > span:hover,
-.rating > span:hover ~ span {
+.rating-h > span:hover,
+.rating-h > span:hover ~ span {
   color: transparent;
 }
-.rating > span:hover:before,
-.rating > span:hover ~ span:before {
+.rating-h > span:hover:before,
+.rating-h > span:hover ~ span:before {
    content: "\2605";
    position: absolute;
    left: 0; 
@@ -53,18 +54,18 @@ table {
 
 <table id="stars-table" border="0">
 <tr>
-<td><div class="rating rating-looks"><span id="looks-5">&#9734;</span><span id="looks-4">&#9734;</span><span id="looks-3">&#9734;</span><span id="looks-2">&#9734;</span><span id="looks-1">&#9734;</span></div></td>
 <td>Looks</td>
+<td><div class="rating-h rating rating-looks"><span id="looks-5">&#9734;</span><span id="looks-4">&#9734;</span><span id="looks-3">&#9734;</span><span id="looks-2">&#9734;</span><span id="looks-1">&#9734;</span></div></td>
 </tr>
 
 <tr>
-<td><div class="rating rating-code"><span id="code-5">&#9734;</span><span id="code-4">&#9734;</span><span id="code-3">&#9734;</span><span id="code-2">&#9734;</span><span id="code-1">&#9734;</span></div></td>
 <td>Code</td>
+<td><div class="rating-h rating rating-code"><span id="code-5">&#9734;</span><span id="code-4">&#9734;</span><span id="code-3">&#9734;</span><span id="code-2">&#9734;</span><span id="code-1">&#9734;</span></div></td>
 </tr>
 
 <tr>
-<td><div class="rating rating-feels"><span id="feels-5">&#9734;</span><span id="feels-4">&#9734;</span><span id="feels-3">&#9734;</span><span id="feels-2">&#9734;</span><span id="feels-1">&#9734;</span></div></td>
 <td>Feels</td>
+<td><div class="rating-h rating rating-feels"><span id="feels-5">&#9734;</span><span id="feels-4">&#9734;</span><span id="feels-3">&#9734;</span><span id="feels-2">&#9734;</span><span id="feels-1">&#9734;</span></div></td>
 </tr>
 </table>
 
